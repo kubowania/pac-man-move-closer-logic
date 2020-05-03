@@ -1,0 +1,25 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+}
